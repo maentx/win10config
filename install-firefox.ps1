@@ -10,4 +10,9 @@ $webclient.DownloadFile($source, $destination)
 Start-Process -Wait -FilePath "$destination\firefox.exe" -ArgumentList "/S"
 
 # Remove the installer
-rm -Force $workdir\firefox*
+rm -Force $destination
+
+# Pin to taskbar
+$sa = New-Object -c Shell.Application
+$pn = $sa.Namespace($env:PROGRAMFILES\Mozilla Firefox).parsename('firefox.exe')
+$pn.invokeverb('taskbarpin')
