@@ -1,5 +1,3 @@
-# Source: https://forum.pulseway.com/topic/1940-install-firefox-with-powershell/, credits go to user kavaa and vichra_ben
-
 # Download
 $source = "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US"
 $destination = "$env:TEMP\firefox.exe"
@@ -14,5 +12,5 @@ rm -Force $destination
 
 # Pin to taskbar
 $sa = New-Object -c Shell.Application
-$pn = $sa.Namespace($env:PROGRAMFILES\Mozilla Firefox).parsename('firefox.exe')
+$pn = $sa.Namespace("$env:PROGRAMFILES\Mozilla Firefox").parsename('firefox.exe')
 $pn.invokeverb('taskbarpin')
