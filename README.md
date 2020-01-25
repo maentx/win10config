@@ -5,3 +5,5 @@
 * [Don't group Downloads](https://www.thewindowsclub.com/restore-display-view-for-files-grouped-by-date-modified-in-downloads-folder)
 * [Make details default view](https://www.infopackets.com/news/9764/how-change-default-icon-view-windows-10-all-folders)
 * [Disable Windows Ink Workspace](https://softwarekeep.com/help-center/how-to-disable-windows-ink)
+* [Declutter Libraries](https://www.geeksinphoenix.com/blog/post/2016/07/06/how-to-use-libraries-in-windows-10.aspx)
+* [Declutter "This PC"](https://www.thewindowsclub.com/remove-the-folders-from-this-pc-windows-10)
